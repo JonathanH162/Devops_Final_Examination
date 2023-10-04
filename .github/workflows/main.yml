@@ -2,6 +2,7 @@ name: Build, Test, and Deploy Java Spring Boot Application
 
 on:
  push:
+    branches: [ "!master" ]
  pull_request:
     branches: [ "master" ]
 
