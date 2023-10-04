@@ -54,7 +54,7 @@ jobs:
         run: docker build -t devops-final-examination .
 
       - name: Login to GitHub Container Registry
-        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u Jonathanh162 --password-stdin
+        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u Jonathanh162 -p "${{ secrets.GHCR_PAT }}"
 
       - name: Tag and Push Docker Image
         run: |
