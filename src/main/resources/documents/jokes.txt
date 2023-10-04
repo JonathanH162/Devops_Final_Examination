@@ -1,7 +1,7 @@
-Monday - "What did the grape say when it got crushed? Nothing, it just let out a little wine."
-Tuesday - "Geology rocks but Geography is where it’s at!"
-Wednesday - "I was wondering why the ball was getting bigger. Then it hit me."
-Thursday - "What do you call the wife of a hippie? A Mississippi."
-Friday - "Why was the baby ant confused? Because all his uncles were ants!"
-Saturday - "Ladies, if he can’t appreciate your fruit jokes, you need to let that mango."
-Sunday - "Need an ark to save two of every animal? I noah guy."
+Monday - Joke1
+Tuesday - Joke2
+Wednesday - Joke3
+Thursday - Joke4
+Friday - Joke5
+Saturday - Joke6
+Sunday - Joke7
