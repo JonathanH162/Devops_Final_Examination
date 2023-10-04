@@ -1,9 +1,10 @@
 name: Build, Test, and Deploy Java Spring Boot Application
 
 on:
- pull_request:
+  pull_request:
     branches: [ "master" ]
-
+  push:
+    branches-ignore: [ "master" ]
 jobs:
   setup_and_build:
     runs-on: ubuntu-latest
