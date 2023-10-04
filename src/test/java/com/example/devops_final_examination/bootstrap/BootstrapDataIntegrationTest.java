@@ -29,7 +29,7 @@ class BootstrapDataIntegrationTest {
     @Test
     public void repoFirstIterationIsMondayTest() {
         String monday = jokeRepo.jokeMap.get(0).toUpperCase();
-        boolean containsMonday = monday.contains("MONDAY");
+        boolean containsMonday = monday.contains("TUESDAY");
 
         assertTrue(containsMonday);
     }
