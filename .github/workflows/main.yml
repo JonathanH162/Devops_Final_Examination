@@ -58,7 +58,7 @@ jobs:
 
       - name: Tag and Push Docker Image
         run: |
-          docker tag devops-menu-project ghcr.io/jonathanh162/devops-final-examination:latest 
+          docker tag devops-final-examination ghcr.io/jonathanh162/devops-final-examination:latest 
           docker push ghcr.io/jonathanh162/devops-final-examination:latest
 
   fake_deploy:
