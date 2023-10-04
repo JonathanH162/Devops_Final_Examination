@@ -35,6 +35,9 @@ jobs:
         
 
   docker_build_and_push:
+
+    if: (github.event_name == 'push' && github.ref == 'refs/heads/master') || (github.event_name == 'pull_request' && github.base_ref == 'master')
+     
     needs: setup_and_build
     runs-on: ubuntu-latest
     steps:
